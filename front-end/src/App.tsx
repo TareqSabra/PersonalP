@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./componants/NavBar/nav";
+import { Home } from "./pages/home";
 <script src="https://unpkg.com/react/umd/react.production.min.js"></script>;
 <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"></script>;
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <NavBar user={user} />
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.Containor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.wallpaper {
+  width: 98%;
+  height: 1500px;
+  background-image: url("../Resoruces/Pics/background/back.svg");
+  opacity: 0.7;
+  object-fit: cover;
+  margin-top: 5px;
+  border-radius: 3%;
+}
+.Containor .Carousal {
+  opacity: 0.8;
+}
+.informationC {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  opacity: 0.5;
+  height: 70%;
+  border-radius: 4%;
+  background-color: silver;
+}
+.informationC .Titel {
+  font-size: 70px;
+  margin-top: 5%;
+  color: black;
+}
+.informationC .Information {
+  position: absolute;
+  left: 14%;
+  font-size: 30px;
+  margin-top: 10%;
+  max-width: 70%;
+  color: black;
+}
